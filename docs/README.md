@@ -1,0 +1,24 @@
+# OctoAcme Project Management Docs
+
+This README provides an overview of OctoAcme's standardized project management processes and links to all core reference documents.
+
+## Project Management Processes Summary
+
+OctoAcme follows a structured yet flexible approach to project management, guiding initiatives through a complete lifecycle from initial concept to delivery and continuous improvement. At the heart of this approach are five core principles: customer-first design that prioritizes value and usability, iterative delivery of small testable increments, clear ownership with defined roles and responsibilities, data-informed decision-making based on measurable outcomes, and a culture of psychological safety that encourages feedback and learning.
+
+The project lifecycle consists of five distinct phases, each with specific goals and deliverables. During **Initiation**, teams validate business needs and create a lightweight Project One-pager that defines the problem statement, success metrics, stakeholder list, and high-level timeline. The **Planning** phase transforms approved initiatives into actionable backlogs with prioritized work items, acceptance criteria, and a Definition of Done, while identifying dependencies and creating detailed release plans. **Execution** follows established team rhythms including daily standups and weekly delivery syncs, with work tracked through project boards (Backlog → Ready → In Progress → In Review → QA → Done) and quality ensured through comprehensive testing strategies and CI/CD pipelines. The **Release and Deployment** phase employs standardized procedures for different release types (patch, minor, major), with pre-release checklists, smoke tests, rollback plans, and clear communication to stakeholders. Finally, the **Retrospective** phase captures learnings and converts them into actionable improvements tracked through subsequent sprints.
+
+Collaboration across OctoAcme is enabled by clearly defined roles working in concert. **Project Managers** coordinate delivery activities, manage schedules and risks, facilitate meetings, and maintain transparency through consistent documentation and status reporting. **Product Managers** define what should be built by owning the product vision, prioritizing the backlog based on customer and business value, and validating solutions through research and metrics. **Developers** implement features that meet acceptance criteria while maintaining high quality standards through testing, code reviews, and technical design collaboration. **QA/Testing** specialists validate quality and acceptance criteria, while **Stakeholders** provide essential inputs, approvals, and business context throughout the project lifecycle.
+
+Risk management and communication are woven throughout every phase of project work. Teams maintain a Risk Register that tracks identified risks with their impact, likelihood, mitigation plans, and status, reviewing and updating these regularly during weekly syncs. Communication follows established patterns including weekly PM-to-Product Lead syncs, twice-weekly team standups, monthly stakeholder updates, and structured escalation paths (team-level → PM → Product Lead → Sponsor) for issues requiring resolution. All projects maintain a single source of truth for status information, use standardized templates for weekly updates and incident communication, and emphasize transparency and data-driven reporting. Quality assurance is integrated throughout the process with unit tests for new logic, integration and end-to-end tests for critical flows, security scanning in CI, and metrics tracking (velocity, burndown, success indicators) to ensure continuous improvement and reliable delivery.
+
+## Main Docs
+
+- [Project Management Overview](./octoacme-project-management-overview.md) — Core principles, roles, artifacts, and lifecycle overview
+- [Project Initiation Guide](./octoacme-project-initiation.md) — Steps to validate projects, align stakeholders, and create initial plans
+- [Project Planning](./octoacme-project-planning.md) — Breaking work into shippable increments with clear acceptance criteria
+- [Execution & Tracking](./octoacme-execution-and-tracking.md) — Day-to-day workflows, quality practices, and progress tracking
+- [Risk Management & Communication](./octoacme-risks-and-communication.md) — Managing risks, dependencies, and stakeholder communications
+- [Release & Deployment Guide](./octoacme-release-and-deployment.md) — Standardized release procedures and rollback strategies
+- [Retrospective & Continuous Improvement](./octoacme-retrospective-and-continuous-improvement.md) — Capturing learnings and driving actionable improvements
+- [Roles and Personas](./octoacme-roles-and-personas.md) — Detailed role definitions and responsibilities for team members
