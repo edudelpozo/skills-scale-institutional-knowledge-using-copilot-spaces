@@ -10,9 +10,14 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 
 ## Activities
 1. Kickoff meeting with stakeholders and delivery team
+   - Include: Product Manager, Project Manager, Tech Lead, UX Designer (if user-facing), QA Lead, Business Analyst (if complex requirements)
 2. Create prioritized backlog with acceptance criteria
+   - Business Analyst helps document detailed requirements
+   - UX Designer provides design inputs for user-facing features
 3. Estimate scope (T-shirt sizing or story points)
 4. Define Definition of Done (DoD)
+   - Include QA sign-off criteria
+   - Include UX review for user-facing features
 5. Identify dependencies and integration points
 6. Create release plan and milestone map
 
@@ -41,3 +46,7 @@ Turn an approved initiative into an actionable plan and backlog for delivery.
 - [ ] Release timeline and milestones agreed
 - [ ] Definition of Done documented
 - [ ] Initial test plan / QA approach drafted
+
+---
+
+_Related: Planning activities updated to include new personas from [issue #4](https://github.com/edudelpozo/skills-scale-institutional-knowledge-using-copilot-spaces/issues/4)._

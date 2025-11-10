@@ -30,14 +30,40 @@ Whenever a new project idea or feature proposal is ready to be explored.
 - Proposed team / roles:
 
 ## Initiation Checklist
-- [ ] One-pager completed and reviewed by Product Lead
-- [ ] Sponsor / Stakeholder alignment (email or meeting)
-- [ ] Decision: Approve to move into planning?
+
+### Discovery & Alignment
+- [ ] One-pager completed with clear problem statement and SMART goals
+- [ ] Success metrics defined and measurable
+- [ ] One-pager reviewed and approved by Product Lead
+- [ ] Sponsor / Stakeholder alignment meeting held
+- [ ] Key stakeholder roles identified (PM, PjM, Dev Lead, UX Designer, QA Lead, Business Analyst, Customer Support as applicable)
+
+### Requirements & Feasibility
+- [ ] Initial requirements gathered (Business Analyst if complex)
+- [ ] Technical feasibility assessed (architecture review if needed)
+- [ ] UX research or design discovery completed (if user-facing)
+- [ ] Resource availability confirmed (developers, designers, QA)
+- [ ] Budget and timeline constraints documented
+
+### Risk & Dependencies
+- [ ] Initial risk list created (technical, resource, schedule, external)
+- [ ] Cross-team dependencies identified
+- [ ] Third-party or vendor dependencies documented
+- [ ] Regulatory or compliance requirements identified
+
+### Decision Gate & Setup
+- [ ] Go/No-go decision: Approve to move into planning?
 - [ ] Create repo or project board skeleton
 - [ ] Add initial artifacts to repo (docs/ or .copilot/)
+- [ ] Schedule kickoff meeting with delivery team
+- [ ] Communication plan established (who needs updates and how often)
 
 ## Decision Gate
 Move to planning when:
 - Success metrics are clear
 - Stakeholders agree on priority
 - Team availability is confirmed
+
+---
+
+_Related: Enhanced checklist addresses gaps identified in [issue #4](https://github.com/edudelpozo/skills-scale-institutional-knowledge-using-copilot-spaces/issues/4)._
